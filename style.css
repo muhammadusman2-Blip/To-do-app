@@ -1,0 +1,78 @@
+body{
+    background-color: lightblue;
+    background: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwMTYtYy0wOF8xLWtzaDZtemEzLmpwZw.jpg);
+}
+#today{
+    border: 2px solid black;
+    width: 500px;
+    margin: auto;
+    margin-top: 200px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;;
+    border-radius: 20px;
+    text-align: center;
+    /* background-color: aliceblue; */
+    background-color: rgba(255, 255, 255,0.1); 
+    /* backdrop-filter: blur(10px); */
+    
+}
+h1{
+    color: whitesmoke;
+}
+input{
+    width: 300px;
+    height: 30px;
+    border-radius: 30px;
+}
+.btn{
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: orange;
+    box-shadow: 40px 0px 100px orangered ,-40px 0 100px orangered;
+}
+.style{
+    background-color: red;
+    border-radius: 30px;
+}
+#uldata{
+    list-style: none;
+    border-radius: 20px;
+    /* border: 2px solid black; */
+}
+.li_style{
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 400px;
+    background-color: purple;
+    color: aliceblue;
+    /* margin: 5px;
+    display: inline-block;
+    white-space: nowrap; */
+}
+.button_style{
+    background-color: red;
+    margin-left: 260px;
+    cursor: pointer;
+}
+.set_btn_style{
+    background-color: aqua;
+    /* margin-left: 10px; */
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.set_btn_style:hover{
+     background-color: orange;
+    box-shadow: 40px 0px 190px orangered ,-40px 0 100px orangered;
+
+}
+#del{
+    background-color: red;
+    border-radius: 20px;
+}
