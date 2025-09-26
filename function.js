@@ -3,7 +3,7 @@ function add(){
     let findvalue=finddata.value;
 
     if(findvalue.trim()==""){
-        alert("no allowe empty input")
+        alert("no allowed empty input")
         return
     }
     // console.log(finddata)
@@ -43,20 +43,30 @@ function add(){
 
    
     var update=prompt(findvalue,li.firstChild.nodeValue)
-       if( update.trim() !==""){
+      //  if( update.trim() !==""){
            li.firstChild.nodeValue=update
    
-       }
+      //  }
     })
 
-    let del_but=document.getElementById("del")
-    // let todolist=document.getElementById("today")
-    del_but.onclick=(function(){
-
-      while (ul.firstChild) {
-    ul.removeChild(ul.firstChild);
-  }
+  //   let del_but=document.getElementById("del")
+  //   // let todolist=document.getElementById("today")
+  //   del_but.onclick=(function(){
+     
+ 
+  // //     while (ul.firstChild) {
+  // //   ul.removeChild(ul.firstChild);
+  // // }
       
-    })
+  //   })
 }
 
+function del(){
+   let confirmation = confirm("Are you sure you want to delete everything?");
+  if(confirmation){
+  let alldelete=document.getElementById("uldata").innerHTML=""
+  }
+  else{
+    alert("delete cancelled")
+  }
+}

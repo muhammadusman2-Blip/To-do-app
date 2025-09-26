@@ -76,3 +76,13 @@ input{
     background-color: red;
     border-radius: 20px;
 }
+#del_btn{
+    background-color: red;
+    border-radius: 20px;
+    height: 40px;
+    transition: 0.5s;
+}
+#del_btn:hover{
+    background-color: red;
+    box-shadow: 40px 0px 100px red,-40px 0px 100px red;
+}
